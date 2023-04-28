@@ -1,0 +1,85 @@
+
+ @font-face {
+     font-family: trajan;
+     src: url("Trajan Pro Regular.ttf");
+ }
+
+ body {
+     font-size: 10pt;
+     text-align: center;
+     background: #E1F5FE
+ }
+
+ * {
+     border-radius: 5vh;
+     border: none;
+     font-family: trajan;
+ }
+
+ input {
+     display: inline-block;
+     margin: 4px;
+     background: white;
+     box-shadow: 0 0 1px #00000066
+ }
+
+ input[type=text] {
+     width: 20vw;
+     padding: 5px;
+     -webkit-box-shadow: 0 1px gray;
+     box-shadow: 0 0 1px gray;
+
+ }
+
+ canvas {
+     border-radius: 0;
+     -webkit-box-shadow: 0 1px gray;
+     box-shadow: 0 0 1px gray;
+ }
+
+
+ button {
+     margin: 16px 4px;
+     padding: 8px;
+     background: white;
+     -webkit-box-shadow: 0 1px gray;
+     box-shadow: 0 0 1px gray;
+ }
+
+ canvas {
+     width: 96%;
+ }
+
+ input[type=range] {
+     background: white !important;
+     -webkit-appearance: none;
+     appearance: none;
+     height: 8px;
+     -webkit-box-shadow: 0 1px gray;
+     box-shadow: 0 0 1px gray;
+     border-radius: 5vh
+ }
+
+ input[type=range]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 16px;
+     height: 16px;
+     background: white;
+     cursor: pointer;
+     border-radius: 5vh;
+     -webkit-box-shadow: 0 1px gray;
+     box-shadow: 0 0 1px gray;
+ }
+
+
+ input[type=range]::-moz-range-thumb {
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+     border-radius: 8px;
+ }
+ 
+ a{
+     color: black;
+ }

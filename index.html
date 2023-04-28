@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pix - Shades</title>
+
+    <!-- HTML -->
+
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Shades By <a href="https://yaverjavid.github.io/bitmacr/">Pixmacr</a></h1>
+    <h3>Colors: </h3>
+    <label for="color">Color : </label>
+    <input type="color" id="color" value="#223377">
+    Or <input type="text" id="color_string" placeholder="Any CSS Color"> <br>
+    <br>
+    <label for="lighting_color">Lighting Color : </label>
+    <input type="color" id="lighting_color" value="#664466"> 
+    Or <input type="text" id="lighting_color_string" placeholder="Any CSS Color"> <br>
+    <h3>Speeds: </h3>
+    <label for="hue_speed">Hue Speed : </label>
+    <input type="range" id="hue_speed" max="40" value="15" min="1"> 
+    <span id="hue_speed_shower">(15&deg;)</span>
+    <br> <br>
+    <label for="brightness_speed">Brightness Speed : </label>
+    <input type="range" id="brightness_speed" max="15" value="5" min="1">
+     <span id="brightness_speed_shower">(5%)</span>
+    <br> <button>Generate</button> <br>
+    <!-- Project -->
+    <div id="psedo"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
